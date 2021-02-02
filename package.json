@@ -1,0 +1,23 @@
+{
+  "name": "serve-static-nginx",
+  "description": "Express middleware to serve static files through nginx and x-accel-redirect",
+  "version": "0.1.0",
+  "author": "Greg ORIOL <greg@gregoriol.net>",
+  "license": "MIT",
+  "repository": "GregOriol/serve-static-nginx",
+  "dependencies": {
+    "parseurl": "~1.3.3"
+  },
+  "devDependencies": {
+  },
+  "files": [
+    "LICENSE",
+    "HISTORY.md",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+  }
+}
