@@ -1,7 +1,7 @@
 {
   "name": "serve-static-nginx",
   "description": "Express middleware to serve static files through nginx and x-accel-redirect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Greg ORIOL <greg@gregoriol.net>",
   "license": "MIT",
   "repository": "GregOriol/serve-static-nginx",
