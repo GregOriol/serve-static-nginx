@@ -75,6 +75,11 @@ function serveStaticNginx (root, nginxLocation, options) {
         return next()
       }
 
+      if (stat.isDirectory()) {
+        // not serving directories
+        return next()
+      }
+
       res.statusCode = 200
       res.setHeader('X-Accel-Redirect', nginxLocation + path)
       if (setHeaders) {
